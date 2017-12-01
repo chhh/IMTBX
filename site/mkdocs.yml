@@ -1,0 +1,35 @@
+site_name: IMTBX - Ion Mobility Toolbox
+site_description: "A software suite for processing Ion Mobility Mass
+Spectrometry (IM-MS) data. Includes a 2D peak extractor and a data
+visualization GUI that can display single processing steps."
+site_author: Dmitry Avtonomov
+copyright: <a href='http://github.com/chhh'>Dmitry Avtonomov</a>
+
+google_analytics: null
+
+site_url: https://chhh.github.io/imtbx
+repo_url: https://github.com/chhh/imtbx
+edit_uri: /edit/master/site-src
+
+docs_dir: 'src'
+site_dir: '../docs'
+
+theme:
+  name: 'material'
+  custom_dir: 'themes/material'
+  language: 'en'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+
+pages:
+  - 'Intro' : 'index.md'
+  - 'Tutorials' : 'tutorials.md'
+  - 'About' : 'about.md'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
