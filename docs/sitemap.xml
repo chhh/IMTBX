@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>https://chhh.github.io/imtbx/</loc>
+     <lastmod>2017-12-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>https://chhh.github.io/imtbx/download/</loc>
+     <lastmod>2017-12-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>https://chhh.github.io/imtbx/quick-start/</loc>
+     <lastmod>2017-12-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>https://chhh.github.io/imtbx/about/</loc>
+     <lastmod>2017-12-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+</urlset>
