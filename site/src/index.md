@@ -1,29 +1,12 @@
-# Welcome to MkDocs
+# IMTBX + Grppr: Toolset for Top-Down IM-MS
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+**IMTBX + Grppr** is a data processing toolkit for *ion mobility mass
+spectrometry* data.  
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-### And an H3 in between
-Raw unprocessed data from the instrument (LC-IM-MS):  
+Waters Synapt G2, video made using the included GUI data viewer.  
+Raw unprocessed data from the instrument, LC-IM-MS:  
 ![Raw unprocessed data LC-IM-MS](/img/without-filter.gif)
 
 
 After signal processing and 2D peak detection:
 ![After signal processing and peak detection](/img/with-filter-peaks.gif)
-
-
-## An extra H2
-With some text

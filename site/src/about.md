@@ -1,8 +1,8 @@
 # Citing work
 Please cite the following paper if you use IMTBX or Grppr in your work:  
-`lololololol`
+`article ref`
 
-## Author and maintainer
+## Authors and maintainer
 Dmitry Avtonomov (dmitriya@umich.edu)  
 
 ## Acknowledgements

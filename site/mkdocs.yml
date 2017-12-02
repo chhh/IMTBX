@@ -9,7 +9,7 @@ google_analytics: null
 
 site_url: https://chhh.github.io/imtbx
 repo_url: https://github.com/chhh/imtbx
-edit_uri: /edit/master/site-src
+edit_uri: /chhh/IMTBX/tree/master/site/src
 
 docs_dir: 'src'
 site_dir: '../docs'
@@ -23,9 +23,10 @@ theme:
     accent: 'indigo'
 
 pages:
-  - 'Intro' : 'index.md'
-  - 'Tutorials' : 'tutorials.md'
-  - 'About' : 'about.md'
+  - 'Intro'       : 'index.md'
+  - 'Download'    : 'download.md'
+  - 'Quick Start' : 'quick-start.md'
+  - 'About'       : 'about.md'
 
 markdown_extensions:
   - admonition
