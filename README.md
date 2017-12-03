@@ -11,3 +11,6 @@ Precompiled binaries for *Win-x64* are available in the
 
 ## Documentation / More info
 Read the docs at https://chhh.github.io/IMTBX/
+
+### Before and after signal detection
+<img width=400 src="https://github.com/chhh/IMTBX/blob/master/site/src/img/without-filter.gif"/><img width=400 src="https://github.com/chhh/IMTBX/blob/master/site/src/img/with-filter-peaks.gif"/>
