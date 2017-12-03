@@ -9,4 +9,5 @@ the monoisotopic peak is not visible.
 Precompiled binaries for *Win-x64* are available in the
 [Releases](https://github.com/chhh/IMTBX/releases/latest) section.
 
-## Documentation
+## Documentation / More info
+Read the docs at https://chhh.github.io/IMTBX/
