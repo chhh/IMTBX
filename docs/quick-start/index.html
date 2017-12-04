@@ -363,12 +363,12 @@ to get the latest available pre-built binaries.  </p>
 <h2 id="typical-usage">Typical usage<a class="headerlink" href="#typical-usage" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Show available commands:<br />
-<code>WatersIMSPeakDetector.exe help</code>  </li>
+<code>IMTBX.exe help</code>  </li>
 <li>Show documentation for the <code>peaks</code> command that extracts single features from
 raw data:
-    <code>WatersIMSPeakDetector.exe help peaks</code>  </li>
+    <code>IMTBX.exe help peaks</code>  </li>
 <li>Detect peaks (the most basic):<br />
-<code>WatersIMSPeakDetector.exe peaks --orig -o "+Results" -i
+<code>IMTBX.exe peaks --orig -o "+Results" -i
     "path/to/input.RAW"</code>  <ul>
 <li>The <code>+</code> sign in <code>-o</code> argument tells the program that the output path is
   relative to the input path. You could also use <code>+../Results-2017</code> to place
@@ -377,7 +377,7 @@ raw data:
 </ul>
 </li>
 <li>Detect peaks (specifying filter size and shape):<br />
-<code>WatersIMSPeakDetector.exe peaks -f 2 2 1 1 2 2 --hyper 0.2 0.5 0.3
+<code>IMTBX.exe peaks -f 2 2 1 1 2 2 --hyper 0.2 0.5 0.3
     --orig -o "+Results" -i "path/to/input.RAW"</code>
         * <code>--filter</code> specifies the filter size in points.
         * <code>--hyper</code> specifies how quickly the filter falls off.</li>
