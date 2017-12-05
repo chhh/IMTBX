@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "IMTBX + Grppr: Toolset for Top-Down IM-MS\n\n\nIMTBX + Grppr\n is a data processing toolkit for \nion mobility mass\nspectrometry\n data.  \n\n\nWaters Synapt G2, video made using the included GUI data viewer.\n\nRaw unprocessed data from the instrument, LC-IM-MS:\n\n\n\n\nAfter signal processing and 2D peak detection:", 
+            "text": "IMTBX + Grppr: Toolset for Top-Down IM-MS\n\n\nIMTBX + Grppr\n is a data processing toolkit for \nion mobility mass\nspectrometry\n data.  \n\n\nAs an example, below is a video made with the included GUI data viewer.\nWaters Synapt G2, IMTBX signal detection in LC-IM-MS data:\n\n\n\nRaw unprocessed data from the instrument, LC-IM-MS:", 
             "title": "Intro"
         }, 
         {
             "location": "/#imtbx-grppr-toolset-for-top-down-im-ms", 
-            "text": "IMTBX + Grppr  is a data processing toolkit for  ion mobility mass\nspectrometry  data.    Waters Synapt G2, video made using the included GUI data viewer. \nRaw unprocessed data from the instrument, LC-IM-MS:   After signal processing and 2D peak detection:", 
+            "text": "IMTBX + Grppr  is a data processing toolkit for  ion mobility mass\nspectrometry  data.    As an example, below is a video made with the included GUI data viewer.\nWaters Synapt G2, IMTBX signal detection in LC-IM-MS data:  Raw unprocessed data from the instrument, LC-IM-MS:", 
             "title": "IMTBX + Grppr: Toolset for Top-Down IM-MS"
         }, 
         {
