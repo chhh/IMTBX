@@ -24,8 +24,7 @@ theme:
   palette:
     primary: 'indigo'
     accent: 'orange'
-  logo: 'img/logo/logo-vector.svg'
-  logo_large: 'img/logo/logo-vector.svg'
+  logo: 'img/logo/logo-vector-sans.svg'
 
 pages:
   - 'Intro'       : 'index.md'
