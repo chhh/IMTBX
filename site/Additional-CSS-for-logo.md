@@ -1,0 +1,13 @@
+background: #fff;
+border-radius: 100%;
+display: block;
+width: 96px;
+-webkit-transition: box-shadow .4s;
+transition: box-shadow .4s;
+margin: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+padding: 10px;
+border: 10px;

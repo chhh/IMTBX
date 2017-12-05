@@ -24,7 +24,8 @@ theme:
   palette:
     primary: 'indigo'
     accent: 'orange'
-  logo: 'img/logo/logo-vector-03.svg'
+  logo: 'img/logo/logo-vector.svg'
+  logo_large: 'img/logo/logo-vector.svg'
 
 pages:
   - 'Intro'       : 'index.md'
@@ -38,10 +39,3 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
-
-# Feature flags for functionality that alters behavior significantly, and thus
-# may be a matter of taste
-feature:
-  # Another layer on top of the main navigation for larger screens in the form
-  # of tabs, especially useful for larger documentation projects
-  tabs: false

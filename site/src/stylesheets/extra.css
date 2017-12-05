@@ -1,3 +1,26 @@
 .md-typeset code {
   background-color: rgba(27,31,35,0.07);
 }
+
+/*.md-nav__button img {
+  background: #fff;
+  display: block;
+  width: 96px;
+  -webkit-transition: box-shadow .4s;
+  transition: box-shadow .4s;
+  margin: 10px;
+      margin-top: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+  padding: 10px;
+  border: 10px;
+}*/
+
+/*.md-nav__button img:hover {
+  box-shadow: 0 4px 7px rgba(0,0,0,.23),0 8px 25px rgba(0,0,0,.05);
+}*/
+
+/*span.md-nav__button.md-logo {
+  display: inherit;
+}*/
