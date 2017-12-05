@@ -10,8 +10,8 @@ google_analytics: null
 extra_css:
   - 'stylesheets/extra.css'
 
-site_url: https://chhh.github.io/imtbx
-repo_url: https://github.com/chhh/imtbx
+site_url: https://chhh.github.io/IMTBX
+repo_url: https://github.com/chhh/IMTBX
 edit_uri: /chhh/IMTBX/tree/master/site/src
 
 docs_dir: 'src'
