@@ -1,11 +1,14 @@
-site_name: IMTBX - Ion Mobility Toolbox
-site_description: "A software suite for processing Ion Mobility Mass
-Spectrometry (IM-MS) data. Includes a 2D peak extractor and a data
+site_name: IMTBX + Grppr - Ion Mobility Toolbox and Isotopic Grouping
+site_description: "IMTBX + Grppr is a software suite for processing Ion Mobility
+Mass Spectrometry (IM-MS) data. Includes a 2D peak extractor and a data
 visualization GUI that can display single processing steps."
 site_author: Dmitry Avtonomov
 copyright: <a href='http://github.com/chhh'>Dmitry Avtonomov</a>
 
 google_analytics: null
+
+extra_css:
+  - 'stylesheets/extra.css'
 
 site_url: https://chhh.github.io/imtbx
 repo_url: https://github.com/chhh/imtbx
@@ -20,7 +23,8 @@ theme:
   language: 'en'
   palette:
     primary: 'indigo'
-    accent: 'indigo'
+    accent: 'orange'
+  logo: 'img/logo/logo-vector-03.svg'
 
 pages:
   - 'Intro'       : 'index.md'
@@ -34,3 +38,10 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
+
+# Feature flags for functionality that alters behavior significantly, and thus
+# may be a matter of taste
+feature:
+  # Another layer on top of the main navigation for larger screens in the form
+  # of tabs, especially useful for larger documentation projects
+  tabs: false
