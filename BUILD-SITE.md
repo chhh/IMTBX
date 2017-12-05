@@ -31,3 +31,9 @@
   to serve contents of `master/docs`
 
 ### Create site stub
+Just copy the example site from the Material theme.
+
+### Building the site
+Execute from the `site` sub-folder:  
+`mkdocs build --clean`
+And push to GitHub. The repo is configured to serve the site from `master/docs`.
