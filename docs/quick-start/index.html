@@ -360,7 +360,7 @@
 to get the latest available pre-built binaries.  </p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>64-bit Windows only. NET 4.5.1 required, It won't work under Mono.</p>
+<p>64-bit Windows only. NET 4.5.2 required, It won't work under Mono.</p>
 </div>
 <h2 id="typical-usage">Typical usage<a class="headerlink" href="#typical-usage" title="Permanent link">&para;</a></h2>
 <ol>
@@ -369,20 +369,25 @@ to get the latest available pre-built binaries.  </p>
 <li>Show documentation for the <code>peaks</code> command that extracts single features from
 raw data:
     <code>IMTBX.exe help peaks</code>  </li>
-<li>Detect peaks (the most basic):<br />
-<code>IMTBX.exe peaks --orig -o "+Results" -i
+<li>Detect peaks in Top-Down mode (the most basic version):<br />
+<code>IMTBX.exe peaks --mode Sum -wvl -o "+Results" -i
     "path/to/input.RAW"</code>  <ul>
 <li>The <code>+</code> sign in <code>-o</code> argument tells the program that the output path is
   relative to the input path. You could also use <code>+../Results-2017</code> to place
   the results into a new subfolder <code>Results-2017</code> on level higher that the
-  input file.</li>
+  input file, or just use an absolute path.</li>
 </ul>
 </li>
 <li>Detect peaks (specifying filter size and shape):<br />
-<code>IMTBX.exe peaks -f 2 2 1 1 2 2 --hyper 0.2 0.5 0.3
+<code>IMTBX.exe peaks --mode Sum -wvl -f 2 2 1 1 2 2 --hyper 0.2 0.5 0.3
     --orig -o "+Results" -i "path/to/input.RAW"</code>
         * <code>--filter</code> specifies the filter size in points.
-        * <code>--hyper</code> specifies how quickly the filter falls off.</li>
+        * <code>--hyper</code> specifies how quickly the filter falls off.
+        * <code>--orig</code> flag makes it put all the results in yet another subfolder
+        inside the one specified as <code>-o</code>. This is useful if you use an absolute
+        path for <code>-o</code>, e.g. <code>c:\results</code>, and want to put the peaks files for
+        each input file to a separate subfolder with the same name as the
+        original RAW.</li>
 </ol>
                 
                   

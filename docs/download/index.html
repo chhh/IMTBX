@@ -269,13 +269,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#typical-usage" title="Typical usage" class="md-nav__link">
-    Typical usage
-  </a>
-  
-</li>
-      
       
       
     </ul>
@@ -343,13 +336,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#typical-usage" title="Typical usage" class="md-nav__link">
-    Typical usage
-  </a>
-  
-</li>
-      
       
       
     </ul>
@@ -382,7 +368,7 @@ Waters' instruments.</li>
 <h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
 <ul>
 <li><code>IMTBX.exe</code> and <code>IMTBX-View.exe</code></li>
-<li>Require <em>.NET 4.5.1</em> installed. If you're on Windows 10, you already have
+<li>Require <em>.NET 4.5.2</em> installed. If you're on Windows 10, you already have
   it. Most likely you have it on older systems as well, but if the program
   doesn't run, you can get it
   <a href="https://www.microsoft.com/en-us/download/details.aspx?id=40773">here</a>.</li>
@@ -391,28 +377,6 @@ Waters' instruments.</li>
   one from Oracle, you can get an alternative OpenJDK pre-built distribution
   for Win/Linux/Max <a href="https://www.azul.com/downloads/zulu/">here</a>.</li>
 </ul>
-<h2 id="typical-usage">Typical usage<a class="headerlink" href="#typical-usage" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Show available commands:<br />
-<code>IMTBX.exe help</code>  </li>
-<li>Show documentation for the <code>peaks</code> command that extracts single features from
-raw data:
-    <code>IMTBX.exe help peaks</code>  </li>
-<li>Detect peaks (the most basic):<br />
-<code>IMTBX.exe peaks --orig -o "+Results" -i
-    "path/to/input.RAW"</code>  <ul>
-<li>The <code>+</code> sign in <code>-o</code> argument tells the program that the output path is
-  relative to the input path. You could also use <code>+../Results-2017</code> to place
-  the results into a new subfolder <code>Results-2017</code> on level higher that the
-  input file.</li>
-</ul>
-</li>
-<li>Detect peaks (specifying filter size and shape):<br />
-<code>IMTBX.exe peaks -f 2 2 1 1 2 2 --hyper 0.2 0.5 0.3
-    --orig -o "+Results" -i "path/to/input.RAW"</code>
-        * <code>--filter</code> specifies the filter size in points.
-        * <code>--hyper</code> specifies how quickly the filter falls off.</li>
-</ol>
                 
                   
                 
