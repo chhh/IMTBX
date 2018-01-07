@@ -5,7 +5,7 @@ visualization GUI that can display single processing steps."
 site_author: Dmitry Avtonomov
 copyright: <a href='http://github.com/chhh'>Dmitry Avtonomov</a>
 
-google_analytics: null
+google_analytics: ['UA-5572974-13', 'https://chhh.github. io/IMTBX/']
 
 extra_css:
   - 'stylesheets/extra.css'
