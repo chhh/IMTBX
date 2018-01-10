@@ -2,13 +2,23 @@
     "docs": [
         {
             "location": "/", 
-            "text": "IMTBX + Grppr: Toolset for Top-Down IM-MS\n\n\nIMTBX + Grppr\n is a data processing toolkit for \nion mobility mass\nspectrometry\n data.  \n\n\nAs an example, below is a video made with the included GUI data viewer.\nWaters Synapt G2, IMTBX signal detection in LC-IM-MS data:\n\n\n\nRaw unprocessed data from the instrument, LC-IM-MS:", 
+            "text": "IMTBX + Grppr: Toolset for Top-Down IM-MS\n\n\nIMTBX + Grppr\n is a data processing toolkit for \nion mobility mass\nspectrometry\n data.  \n\n\nCiting work\n\n\nIf you use it in your research or work, please cite the following paper:\n\n\nDmitry M. Avtonomov, Daniel A Polasky, Brandon T. Ruotolo, and Alexey I.\n Nesvizhskii. \"IMTBX and Grppr: Software for Top-Down Proteomics Utilizing Ion\n Mobility-Mass Spectrometry\", Analytical Chemistry, 2017. DOI: 10.1021/acs.analchem.7b04999.\n\nLink to full text: \n10.1021/acs.analchem.7b04999\n\n\nExample\n\n\nAs an example, below is a video made with the included GUI data viewer.\nWaters Synapt G2, IMTBX signal detection in LC-IM-MS data:\n\n\n\nRaw unprocessed data from the instrument, LC-IM-MS:", 
             "title": "Intro"
         }, 
         {
             "location": "/#imtbx-grppr-toolset-for-top-down-im-ms", 
-            "text": "IMTBX + Grppr  is a data processing toolkit for  ion mobility mass\nspectrometry  data.    As an example, below is a video made with the included GUI data viewer.\nWaters Synapt G2, IMTBX signal detection in LC-IM-MS data:  Raw unprocessed data from the instrument, LC-IM-MS:", 
+            "text": "IMTBX + Grppr  is a data processing toolkit for  ion mobility mass\nspectrometry  data.", 
             "title": "IMTBX + Grppr: Toolset for Top-Down IM-MS"
+        }, 
+        {
+            "location": "/#citing-work", 
+            "text": "If you use it in your research or work, please cite the following paper:  Dmitry M. Avtonomov, Daniel A Polasky, Brandon T. Ruotolo, and Alexey I.\n Nesvizhskii. \"IMTBX and Grppr: Software for Top-Down Proteomics Utilizing Ion\n Mobility-Mass Spectrometry\", Analytical Chemistry, 2017. DOI: 10.1021/acs.analchem.7b04999. \nLink to full text:  10.1021/acs.analchem.7b04999", 
+            "title": "Citing work"
+        }, 
+        {
+            "location": "/#example", 
+            "text": "As an example, below is a video made with the included GUI data viewer.\nWaters Synapt G2, IMTBX signal detection in LC-IM-MS data:  Raw unprocessed data from the instrument, LC-IM-MS:", 
+            "title": "Example"
         }, 
         {
             "location": "/download/", 
@@ -52,13 +62,8 @@
         }, 
         {
             "location": "/about/", 
-            "text": "Citing work\n\n\nPlease cite the following paper if you use IMTBX or Grppr in your work:\n\n\narticle ref\n\n\nAuthor and maintainer\n\n\nDmitry Avtonomov (dmitriya@umich.edu)  \n\n\nAcknowledgements\n\n\nScott Geromanos, Steve Ciavarini, Sarah Haynes.", 
+            "text": "Author and maintainer\n\n\nDmitry Avtonomov (dmitriya@umich.edu)  \n\n\nCiting work\n\n\nPlease cite the following paper if you use IMTBX or Grppr in your work:  \n\n\n\n\nDmitry M. Avtonomov, Daniel A Polasky, Brandon T. Ruotolo, and Alexey I.\n Nesvizhskii. \n\"IMTBX and Grppr: Software for Top-Down Proteomics Utilizing Ion\n Mobility-Mass Spectrometry\"\n, Analytical Chemistry, 2017.\n\n\nDOI:\n 10.1021/acs.analchem.7b04999\n\n\nDOI Link:\n \nhttp://dx.doi.org/10.1021/acs.analchem.7b04999\n\n\nJournal Link:\n \nhttp://pubs.acs.org/doi/10.1021/acs.analchem.7b04999\n\n\n\n\nAcknowledgements\n\n\nThe authors thank Scott Geromanos and Steve Ciavarini for providing the software\nlibrary for reading raw data from Waters' instruments and valuable discussions\nregarding Waters specific mass calibration using the lockmass channel. Sarah\nHaynes for providing access to LC-IM-MS data.\nRuotolo group research in the area of top-down protein sequencing is supported\nby the National Institutes of Health, through the National Institute of General\nMedical Sciences (R01 GM095832).\nThis work was funded in part by grants from the NIH: R01GM94231 and U24CA210967\nto A.I. Nesvizhskii.", 
             "title": "About"
-        }, 
-        {
-            "location": "/about/#citing-work", 
-            "text": "Please cite the following paper if you use IMTBX or Grppr in your work:  article ref", 
-            "title": "Citing work"
         }, 
         {
             "location": "/about/#author-and-maintainer", 
@@ -66,8 +71,13 @@
             "title": "Author and maintainer"
         }, 
         {
+            "location": "/about/#citing-work", 
+            "text": "Please cite the following paper if you use IMTBX or Grppr in your work:     Dmitry M. Avtonomov, Daniel A Polasky, Brandon T. Ruotolo, and Alexey I.\n Nesvizhskii.  \"IMTBX and Grppr: Software for Top-Down Proteomics Utilizing Ion\n Mobility-Mass Spectrometry\" , Analytical Chemistry, 2017.  DOI:  10.1021/acs.analchem.7b04999  DOI Link:   http://dx.doi.org/10.1021/acs.analchem.7b04999  Journal Link:   http://pubs.acs.org/doi/10.1021/acs.analchem.7b04999", 
+            "title": "Citing work"
+        }, 
+        {
             "location": "/about/#acknowledgements", 
-            "text": "Scott Geromanos, Steve Ciavarini, Sarah Haynes.", 
+            "text": "The authors thank Scott Geromanos and Steve Ciavarini for providing the software\nlibrary for reading raw data from Waters' instruments and valuable discussions\nregarding Waters specific mass calibration using the lockmass channel. Sarah\nHaynes for providing access to LC-IM-MS data.\nRuotolo group research in the area of top-down protein sequencing is supported\nby the National Institutes of Health, through the National Institute of General\nMedical Sciences (R01 GM095832).\nThis work was funded in part by grants from the NIH: R01GM94231 and U24CA210967\nto A.I. Nesvizhskii.", 
             "title": "Acknowledgements"
         }
     ]

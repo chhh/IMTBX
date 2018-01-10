@@ -258,8 +258,6 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
-      
-    
     
       <label class="md-nav__link md-nav__link--active" for="toc">
         About
@@ -273,8 +271,6 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
-  
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
@@ -282,6 +278,13 @@
         <li class="md-nav__item">
   <a href="#author-and-maintainer" title="Author and maintainer" class="md-nav__link">
     Author and maintainer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#citing-work" title="Citing work" class="md-nav__link">
+    Citing work
   </a>
   
 </li>
@@ -316,8 +319,6 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
-  
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
@@ -325,6 +326,13 @@
         <li class="md-nav__item">
   <a href="#author-and-maintainer" title="Author and maintainer" class="md-nav__link">
     Author and maintainer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#citing-work" title="Citing work" class="md-nav__link">
+    Citing work
   </a>
   
 </li>
@@ -353,13 +361,30 @@
                   <a href="https://github.com/chhh/IMTBX/tree/master/site/src/about.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="citing-work">Citing work<a class="headerlink" href="#citing-work" title="Permanent link">&para;</a></h1>
-<p>Please cite the following paper if you use IMTBX or Grppr in your work:<br />
-<code>article ref</code></p>
-<h2 id="author-and-maintainer">Author and maintainer<a class="headerlink" href="#author-and-maintainer" title="Permanent link">&para;</a></h2>
+                  <h1>About</h1>
+                
+                <h2 id="author-and-maintainer">Author and maintainer<a class="headerlink" href="#author-and-maintainer" title="Permanent link">&para;</a></h2>
 <p>Dmitry Avtonomov (dmitriya@umich.edu)  </p>
+<h2 id="citing-work">Citing work<a class="headerlink" href="#citing-work" title="Permanent link">&para;</a></h2>
+<p>Please cite the following paper if you use IMTBX or Grppr in your work:  </p>
+<ul>
+<li>Dmitry M. Avtonomov, Daniel A Polasky, Brandon T. Ruotolo, and Alexey I.
+ Nesvizhskii. <strong>"IMTBX and Grppr: Software for Top-Down Proteomics Utilizing Ion
+ Mobility-Mass Spectrometry"</strong>, Analytical Chemistry, 2017.</li>
+<li><strong>DOI:</strong> 10.1021/acs.analchem.7b04999</li>
+<li><strong>DOI Link:</strong> <a href="http://dx.doi.org/10.1021/acs.analchem.7b04999">http://dx.doi.org/10.1021/acs.analchem.7b04999</a></li>
+<li><strong>Journal Link:</strong> <a href="http://pubs.acs.org/doi/10.1021/acs.analchem.7b04999">http://pubs.acs.org/doi/10.1021/acs.analchem.7b04999</a></li>
+</ul>
 <h2 id="acknowledgements">Acknowledgements<a class="headerlink" href="#acknowledgements" title="Permanent link">&para;</a></h2>
-<p>Scott Geromanos, Steve Ciavarini, Sarah Haynes.</p>
+<p>The authors thank Scott Geromanos and Steve Ciavarini for providing the software
+library for reading raw data from Waters' instruments and valuable discussions
+regarding Waters specific mass calibration using the lockmass channel. Sarah
+Haynes for providing access to LC-IM-MS data.
+Ruotolo group research in the area of top-down protein sequencing is supported
+by the National Institutes of Health, through the National Institute of General
+Medical Sciences (R01 GM095832).
+This work was funded in part by grants from the NIH: R01GM94231 and U24CA210967
+to A.I. Nesvizhskii.</p>
                 
                   
                 
@@ -425,6 +450,8 @@
       
     
     
+      
+        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-5572974-13","https://chhh.github. io/IMTBX/"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
       
     
   </body>
