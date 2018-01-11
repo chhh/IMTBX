@@ -14,12 +14,12 @@ Waters' instruments.
 
 ## Requirements
 
-* `IMTBX.exe` and `IMTBX-View.exe`
-  * Require *.NET 4.5.2* installed. If you're on Windows 10, you already have
+- `IMTBX.exe` and `IMTBX-View.exe`
+    - *.NET 4.5.2*. If you're on Windows 10, you already have
   it. Most likely you have it on older systems as well, but if the program
   doesn't run, you can get it
   [here](https://www.microsoft.com/en-us/download/details.aspx?id=40773).
-* `grppr-0.3.6.jar`
-  * Requires *Java 1.8* installed. If you don't want to install the standard
+- `grppr-0.3.6.jar`
+    - *Java 1.8*. If you don't want to install the standard
   one from Oracle, you can get an alternative OpenJDK pre-built distribution
-  for Win/Linux/Max [here](https://www.azul.com/downloads/zulu/).
+  for Win/Linux/Mac [here](https://www.azul.com/downloads/zulu/).
