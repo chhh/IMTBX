@@ -13,7 +13,7 @@
         <meta name="description" content="IMTBX + Grppr is a software suite for processing Ion Mobility Mass Spectrometry (IM-MS) data. Includes a 2D peak extractor and a data visualization GUI that can display single processing steps.">
       
       
-        <link rel="canonical" href="https://chhh.github.io/IMTBX/about/">
+        <link rel="canonical" href="https://chhh.github.io/IMTBX/data-formats/">
       
       
         <meta name="author" content="Dmitry Avtonomov">
@@ -42,7 +42,7 @@
     
     
       
-        <title>About - IMTBX + Grppr - Ion Mobility Toolbox and Isotopic Grouping</title>
+        <title>Data Dormats - IMTBX + Grppr - Ion Mobility Toolbox and Isotopic Grouping</title>
       
     
     
@@ -101,7 +101,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#author-and-maintainer" tabindex="1" class="md-skip">
+      <a href="#supported-data-formats" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -127,7 +127,7 @@
                 IMTBX + Grppr - Ion Mobility Toolbox and Isotopic Grouping
               </span>
               <span class="md-header-nav__topic">
-                About
+                Data Dormats
               </span>
             
           
@@ -278,18 +278,6 @@
       
       
 
-
-  <li class="md-nav__item">
-    <a href="../data-formats/" title="Data Dormats" class="md-nav__link">
-      Data Dormats
-    </a>
-  </li>
-
-    
-      
-      
-      
-
   
 
 
@@ -297,45 +285,25 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
+      
     
-      <label class="md-nav__link md-nav__link--active" for="toc">
-        About
-      </label>
     
-    <a href="./" title="About" class="md-nav__link md-nav__link--active">
-      About
+    <a href="./" title="Data Dormats" class="md-nav__link md-nav__link--active">
+      Data Dormats
     </a>
     
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-  
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#author-and-maintainer" title="Author and maintainer" class="md-nav__link">
-    Author and maintainer
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#acknowledgements" title="Acknowledgements" class="md-nav__link">
-    Acknowledgements
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
+  </li>
+
     
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../about/" title="About" class="md-nav__link">
+      About
+    </a>
   </li>
 
     
@@ -365,29 +333,8 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
   
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#author-and-maintainer" title="Author and maintainer" class="md-nav__link">
-    Author and maintainer
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#acknowledgements" title="Acknowledgements" class="md-nav__link">
-    Acknowledgements
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
   
 </nav>
                   </div>
@@ -399,29 +346,16 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/chhh/IMTBX/tree/master/site/src/about.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/chhh/IMTBX/tree/master/site/src/data-formats.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>About</h1>
-                
-                <h2 id="author-and-maintainer">Author and maintainer<a class="headerlink" href="#author-and-maintainer" title="Permanent link">&para;</a></h2>
-<p>Dmitry Avtonomov (dmitriya@umich.edu)  </p>
-<h2 id="acknowledgements">Acknowledgements<a class="headerlink" href="#acknowledgements" title="Permanent link">&para;</a></h2>
-<p>The authors thank Scott Geromanos and Steve Ciavarini for providing the software
-library for reading raw data from Waters' instruments and valuable discussions
-regarding Waters specific mass calibration using the lockmass channel. Sarah
-Haynes for providing access to LC-IM-MS data.
-Ruotolo group research in the area of top-down protein sequencing is supported
-by the National Institutes of Health, through the National Institute of General
-Medical Sciences (R01 GM095832).
-This work was funded in part by grants from the NIH: R01GM94231 and U24CA210967
-to A.I. Nesvizhskii.</p>
-<div class="admonition info">
-<p class="admonition-title">Original Manuscript</p>
-<p>Dmitry M. Avtonomov, Daniel A Polasky, Brandon T. Ruotolo, and Alexey I.
-Nesvizhskii. <strong>"IMTBX and Grppr: Software for Top-Down Proteomics Utilizing Ion
-Mobility-Mass Spectrometry"</strong>, Analytical Chemistry, 2018.</p>
-</div>
+                <h1 id="supported-data-formats">Supported data formats<a class="headerlink" href="#supported-data-formats" title="Permanent link">&para;</a></h1>
+<p>Currently we only fully support data from Waters' ion mobility equipped
+instruments (<code>.raw</code> directories). However the API is rather generic, so
+inclusion of support for other formats is possible.</p>
+<p>If you have data that you think is similar and want to try it out,
+<strong>please leave a ticket <a href="https://github.com/chhh/IMTBX/issues">in the issue tracker</a></strong>.
+We will try to accommodate your data format.</p>
                 
                   
                 
@@ -440,7 +374,7 @@ Mobility-Mass Spectrometry"</strong>, Analytical Chemistry, 2018.</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../data-formats/" title="Data Dormats" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../quick-start/" title="Quick Start" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -449,19 +383,19 @@ Mobility-Mass Spectrometry"</strong>, Analytical Chemistry, 2018.</p>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Data Dormats
+                Quick Start
               </span>
             </div>
           </a>
         
         
-          <a href="../cite/" title="Citation" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../about/" title="About" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Citation
+                About
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
