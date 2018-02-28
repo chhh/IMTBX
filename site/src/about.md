@@ -1,15 +1,10 @@
 ## Author and maintainer
 Dmitry Avtonomov (dmitriya@umich.edu)  
 
-## Citing work
-Please cite the following paper if you use IMTBX or Grppr in your work:  
-
-* Dmitry M. Avtonomov, Daniel A Polasky, Brandon T. Ruotolo, and Alexey I.
- Nesvizhskii. **"IMTBX and Grppr: Software for Top-Down Proteomics Utilizing Ion
- Mobility-Mass Spectrometry"**, Analytical Chemistry, 2017.
-* **DOI:** 10.1021/acs.analchem.7b04999
-* **DOI Link:** [http://dx.doi.org/10.1021/acs.analchem.7b04999](http://dx.doi.org/10.1021/acs.analchem.7b04999)
-* **Journal Link:** [http://pubs.acs.org/doi/10.1021/acs.analchem.7b04999](http://pubs.acs.org/doi/10.1021/acs.analchem.7b04999)
+!!! info "Original Manuscript"
+    Dmitry M. Avtonomov, Daniel A Polasky, Brandon T. Ruotolo, and Alexey I.
+    Nesvizhskii. **"IMTBX and Grppr: Software for Top-Down Proteomics Utilizing Ion
+    Mobility-Mass Spectrometry"**, Analytical Chemistry, 2017.
 
 ## Acknowledgements
 The authors thank Scott Geromanos and Steve Ciavarini for providing the software

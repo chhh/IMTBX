@@ -12,7 +12,10 @@
   - `pip install -U pymdown-extensions`
 - Material design theme for MkDocs
   - System-wide install `pip install -U mkdocs-material`
-  - Or just clone the theme repo from GitHub `git clone https://github.com/squidfunk/mkdocs-material.git`. The theme will reside in the folder `mkdocs-material/material`, just copy it and point your `mkdocs.yml` to it like this:
+  - Or just clone the theme repo from GitHub
+    `git clone https://github.com/squidfunk/mkdocs-material.git`.
+    The theme will reside in the folder `mkdocs-material/material`.
+    Copy it and point your `mkdocs.yml` to it like this:
   ```yaml
   theme:
       name: 'material'

@@ -31,6 +31,7 @@ pages:
   - 'Download'    : 'download.md'
   - 'Quick Start' : 'quick-start.md'
   - 'About'       : 'about.md'
+  - 'Citation'    : 'cite.md'
 
 markdown_extensions:
   - admonition
