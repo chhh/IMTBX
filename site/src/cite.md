@@ -6,7 +6,7 @@ manuscript.
 !!! info "Original Manuscript"
     Dmitry M. Avtonomov, Daniel A Polasky, Brandon T. Ruotolo, and Alexey I.
     Nesvizhskii. **"IMTBX and Grppr: Software for Top-Down Proteomics Utilizing Ion
-    Mobility-Mass Spectrometry"**, Analytical Chemistry, 2017.
+    Mobility-Mass Spectrometry"**, Analytical Chemistry, 2018.
 
 <table align="center">
     <tr>

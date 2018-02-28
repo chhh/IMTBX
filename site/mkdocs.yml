@@ -27,11 +27,12 @@ theme:
   logo: 'img/logo/logo-vector-sans.svg'
 
 pages:
-  - 'Intro'       : 'index.md'
-  - 'Download'    : 'download.md'
-  - 'Quick Start' : 'quick-start.md'
-  - 'About'       : 'about.md'
-  - 'Citation'    : 'cite.md'
+  - 'Intro'        : 'index.md'
+  - 'Download'     : 'download.md'
+  - 'Quick Start'  : 'quick-start.md'
+  - 'Data Dormats' : 'data-formats.md'
+  - 'About'        : 'about.md'
+  - 'Citation'     : 'cite.md'
 
 markdown_extensions:
   - admonition
