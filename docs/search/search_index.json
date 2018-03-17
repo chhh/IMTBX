@@ -83,7 +83,7 @@
         {
             "location": "/data-formats/", 
             "text": "Supported data formats\n\n\nCurrently we only fully support data from Waters' ion mobility equipped\ninstruments (\n.raw\n directories). However the API is rather generic, so\ninclusion of support for other formats is possible.\n\n\nIf you have data that you think is similar and want to try it out,\n\nplease leave a ticket \nin the issue tracker\n.\nWe will try to accommodate your data format.", 
-            "title": "Data Dormats"
+            "title": "Data Formats"
         }, 
         {
             "location": "/data-formats/#supported-data-formats", 

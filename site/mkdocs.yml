@@ -30,7 +30,7 @@ pages:
   - 'Intro'        : 'index.md'
   - 'Download'     : 'download.md'
   - 'Quick Start'  : 'quick-start.md'
-  - 'Data Dormats' : 'data-formats.md'
+  - 'Data Formats' : 'data-formats.md'
   - 'About'        : 'about.md'
   - 'Citation'     : 'cite.md'
 
