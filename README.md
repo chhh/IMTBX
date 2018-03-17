@@ -21,3 +21,5 @@ Check out the [Releases](https://github.com/chhh/IMTBX/releases/latest) section.
 
 ## Documentation / More info
 https://chhh.github.io/IMTBX/
+
+[![Analytics](https://ga-beacon.appspot.com/UA-5572974-15/github/chhh/imtbx/landing-page?pixel&useReferer)](https://github.com/igrigorik/ga-beacon)
