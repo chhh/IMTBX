@@ -22,4 +22,4 @@ Check out the [Releases](https://github.com/chhh/IMTBX/releases/latest) section.
 ## Documentation / More info
 https://chhh.github.io/IMTBX/
 
-[![Analytics](https://ga-beacon-nocache.appspot.com/UA-5572974-15/github/chhh/imtbx/landing-page?useReferer)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://ga-beacon-nocache.appspot.com/UA-5572974-15/github/chhh/imtbx/landing-page?flat&useReferer)](https://github.com/igrigorik/ga-beacon)
