@@ -1,3 +1,5 @@
+![Release](https://img.shields.io/github/release/chhh/IMTBX.svg)
+
 More info at https://chhh.github.io/IMTBX/
 
 # IMTBX+Grppr
