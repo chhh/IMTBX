@@ -81,7 +81,7 @@ raw data:
     This is especially useful for the **filter size and shape**.
 
 1. Show available options:  
-    `java -jar grppr-0.3.9.jar`
+    `java -jar grppr-0.3.14.jar`
 * Boolean parameters that are `false` by default are flags, which means that
   to activate them, you need to pass only the flag itself, e.g. `-w` to
   overwrite existing files. If a boolean parameter is `true` by default, then
@@ -108,10 +108,10 @@ raw data:
 
 !!! note "Example for Top Down"
     The data here is assumed to be all in function 001.  
-    `java -jar grppr-0.3.9.jar -d 1 3 --dSnr 2.0 1.0 --isoAlg AVERAGINE
+    `java -jar grppr-0.3.14.jar -d 1 3 --dSnr 2.0 1.0 --isoAlg AVERAGINE
     --isoMzV 30.0 --isoMzT PPM --isoTi 2.0 -g False -w -v -i "<path-to-input>"`
 
 !!! note "Example for LCMS"
-    `java -jar grppr-0.3.9.jar -d 1 2 --dSnr 1.0 1.0 --isoAlg AVERAGINE
+    `java -jar grppr-0.3.14.jar -d 1 2 --dSnr 1.0 1.0 --isoAlg AVERAGINE
     --isoMzV 30.0 --isoMzT PPM --isoTi 1.0 -g True -d 2 1 --minFragPeaks 5
     -w -v -i "<path-to-input>"`

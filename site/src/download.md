@@ -10,7 +10,7 @@ GitHub repository.
 Waters' instruments.
 * `ImtbxGrpprGui.exe` - graphical user interface for running both IMTBX  and Grppr
 (isotopic grouping, precursor-to-fragment matching)
-* `grppr-0.3.9.jar` - Grppr, the isotopic clustering program.
+* `grppr-0.3.14.jar` - Grppr, the isotopic clustering program.
 
 
 ## Requirements
@@ -20,7 +20,7 @@ Waters' instruments.
   it. Most likely you have it on older systems as well, but if the program
   doesn't run, you can get it
   [here](https://www.microsoft.com/en-us/download/details.aspx?id=40773).
-- `grppr-0.3.9.jar`
+- `grppr-0.3.14.jar`
     - *Java 1.8*. If you don't want to install the standard
   one from Oracle, you can get an alternative OpenJDK pre-built distribution
   for Win/Linux/Mac [here](https://www.azul.com/downloads/zulu/).
