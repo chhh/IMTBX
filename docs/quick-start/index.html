@@ -531,7 +531,7 @@ This is especially useful for the <strong>filter size and shape</strong>.</p>
 </div>
 <ol>
 <li>Show available options:<br />
-<code>java -jar grppr-0.3.9.jar</code></li>
+<code>java -jar grppr-0.3.14.jar</code></li>
 <li>Boolean parameters that are <code>false</code> by default are flags, which means that
   to activate them, you need to pass only the flag itself, e.g. <code>-w</code> to
   overwrite existing files. If a boolean parameter is <code>true</code> by default, then
@@ -561,12 +561,12 @@ which is only needed for LCMS data.</li>
 <div class="admonition note">
 <p class="admonition-title">Example for Top Down</p>
 <p>The data here is assumed to be all in function 001.<br />
-<code>java -jar grppr-0.3.9.jar -d 1 3 --dSnr 2.0 1.0 --isoAlg AVERAGINE
+<code>java -jar grppr-0.3.14.jar -d 1 3 --dSnr 2.0 1.0 --isoAlg AVERAGINE
 --isoMzV 30.0 --isoMzT PPM --isoTi 2.0 -g False -w -v -i "&lt;path-to-input&gt;"</code></p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Example for LCMS</p>
-<p><code>java -jar grppr-0.3.9.jar -d 1 2 --dSnr 1.0 1.0 --isoAlg AVERAGINE
+<p><code>java -jar grppr-0.3.14.jar -d 1 2 --dSnr 1.0 1.0 --isoAlg AVERAGINE
 --isoMzV 30.0 --isoMzT PPM --isoTi 1.0 -g True -d 2 1 --minFragPeaks 5
 -w -v -i "&lt;path-to-input&gt;"</code></p>
 </div>
