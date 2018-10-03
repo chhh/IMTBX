@@ -2,11 +2,17 @@
 
 ## Contents
 
-- `IMTBX_v4.x.x_with-View-UI-Grppr.zip` - Everyting in one package
-- `IMTBX_v4.x.x_with-View-UI.zip` - IMTBX, Data Viewer, GUI. Grppr needs to be downloaded separately and put in the same folder as `ImtbxGrpprGui.exe`
+- `IMTBX_v4.x.x.zip` - Everyting in one package
 - `grppr-0.3.xx.jar` - Only the Grppr program
 
 ## Changelog
+
+### v4.4.5
+- IMTBX update to v4.5.0
+  - Option to skip some errors with mass calibration.
+- Grppr update to v0.3.20
+  - Several new options
+  - Bugfixes
 
 ### v4.4.1
 
