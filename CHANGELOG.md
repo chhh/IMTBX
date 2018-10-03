@@ -2,10 +2,20 @@
 
 ## Contents
 
-- `IMTBX_v4.x.x.zip` - Everyting in one package
-- `grppr-0.3.xx.jar` - Only the Grppr program
+- `IMTBX_v5.x.x.zip` - Everyting in one package: data viewer, peak detector, UI for starting the peak detector and isotopic grouping.
+- `grppr-0.3.xx.jar` - Only the Grppr java program.
 
 ## Changelog
+
+### v5.0.1
+- IMTBX update to v5.0.1
+  - Important fix for scan Averaging mode, was broken for files with many functions in them.
+  - Viewer fix for closing files properly.
+- Grppr update to v0.3.21
+  - Fix for multi-digit function names.
+  - Recognize function number '0' as the default for all functions for '-d' deisotoping
+  option. This allows deisotoping of files with unknown number of functions.
+  - Fix MS1/MS2 grouping deisotoping config to allow functions other than 1/2 to be used.
 
 ### v4.4.5
 - IMTBX update to v4.5.0
